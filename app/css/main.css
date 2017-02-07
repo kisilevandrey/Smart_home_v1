@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    width: auto;
+    height: auto;
+}
+#timeDate, #lightBra, #lightMain, #device, #camVideo, #alarm, #music, #weather, #humidityMain, #temperatureMain, #statistics,
+#settings, #ventsMain, #logs{
+    border: rgba(191, 191, 191, 0.76) solid 2px;
+}
+#timeDate{
+    width:677px;
+    height:100px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#lightBra{
+    width:320px;
+    height:200px;
+    position:absolute;
+    top:117px;
+}
+#lightMain{
+    width:320px;
+    height:200px;
+    position:absolute;
+    top:117px;
+    left:330px;
+}
+#device{}
+#camVideo{}
+#alarm{}
+#music{}
+#weather{
+    width:677px;
+    height:100px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+#humidityMain{}
+#temperatureMain{}
+#statistics{}
+#settings{}
+#ventsMain{}
+#logs{}
+
+
+
