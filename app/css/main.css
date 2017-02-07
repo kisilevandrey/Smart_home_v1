@@ -4,47 +4,108 @@ body{
     width: auto;
     height: auto;
 }
-#timeDate, #lightBra, #lightMain, #device, #camVideo, #alarm, #music, #weather, #humidityMain, #temperatureMain, #statistics,
+#timeDate, #message, #lightMain, #device, #camVideo, #alarm, #music, #weather, #humidityMain, #temperatureMain, #statistics,
 #settings, #ventsMain, #logs{
     border: rgba(191, 191, 191, 0.76) solid 2px;
 }
 #timeDate{
-    width:677px;
-    height:100px;
-    position:absolute;
-    top:0;
-    left:0;
+    width: 669px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-#lightBra{
-    width:320px;
-    height:200px;
-    position:absolute;
-    top:117px;
+#message{
+    width: 328px;
+    height: 179px;
+    position: absolute;
+    top: 111px;
+    left: 0;
 }
 #lightMain{
-    width:320px;
-    height:200px;
-    position:absolute;
-    top:117px;
-    left:330px;
+    width: 328px;
+    height: 179px;
+    position: absolute;
+    top: 111px;
+    left: 340px;
 }
-#device{}
-#camVideo{}
-#alarm{}
-#music{}
+#device{
+    width: 328px;
+    height: 179px;
+    position: absolute;
+    top: 302px;
+    left: 0;
+}
+#camVideo{
+    width: 328px;
+    height: 179px;
+    position: absolute;
+    top: 302px;
+    left: 340px;
+}
+#alarm{
+    width: 328px;
+    height: 179px;
+    position: absolute;
+    top: 494px;
+    left: 0;
+}
+#music{
+    width: 328px;
+    height: 179px;
+    position: absolute;
+    top: 494px;
+    left: 340px;
+}
 #weather{
-    width:677px;
-    height:100px;
-    position:absolute;
-    top:0;
-    right:0;
+    width: 669px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
-#humidityMain{}
-#temperatureMain{}
-#statistics{}
-#settings{}
-#ventsMain{}
-#logs{}
+#humidityMain{
+    width: 329px;
+    height: 147px;
+    position: absolute;
+    top: 210px;
+    right: 340px;
+}
+#temperatureMain{
+    width: 329px;
+    height: 147px;
+    position: absolute;
+    top: 210px;
+    right: 0;
+}
+#statistics{
+    width: 329px;
+    height: 147px;
+    position: absolute;
+    top: 369px;
+    right: 340px;
+}
+#settings{
+    width: 329px;
+    height: 147px;
+    position: absolute;
+    top: 369px;
+    right: 0;
+}
+#ventsMain{
+    width: 329px;
+    height: 147px;
+    position: absolute;
+    top: 527px;
+    right: 340px;
+}
+#logs{
+    width: 329px;
+    height: 147px;
+    position: absolute;
+    top: 527px;
+    right: 0;
+}
 
 
 
