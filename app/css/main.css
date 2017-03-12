@@ -1,111 +1,41 @@
 body{
     background-color: black;
+    width:auto;
+    height:auto;
+}
+
+.container-fluid {
+    font: 1em/1.67 'Open Sans', Arial, Sans-serif;
     color: whitesmoke;
-    width: auto;
-    height: auto;
+    width: 99%;
+    height: 100%;
+    margin: 0;
+    padding: 0.5em;
+
 }
-#timeDate, #message, #lightMain, #device, #camVideo, #alarm, #music, #weather, #humidityMain, #temperatureMain, #statistics,
-#settings, #ventsMain, #logs{
+
+.timeDate, .weather{
+    height: 10em;
+    margin: 0 0 0.5em;
     border: rgba(191, 191, 191, 0.76) solid 2px;
-}
-#timeDate{
-    width: 669px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-#message{
-    width: 328px;
-    height: 179px;
-    position: absolute;
-    top: 111px;
-    left: 0;
-}
-#lightMain{
-    width: 328px;
-    height: 179px;
-    position: absolute;
-    top: 111px;
-    left: 340px;
-}
-#device{
-    width: 328px;
-    height: 179px;
-    position: absolute;
-    top: 302px;
-    left: 0;
-}
-#camVideo{
-    width: 328px;
-    height: 179px;
-    position: absolute;
-    top: 302px;
-    left: 340px;
-}
-#alarm{
-    width: 328px;
-    height: 179px;
-    position: absolute;
-    top: 494px;
-    left: 0;
-}
-#music{
-    width: 328px;
-    height: 179px;
-    position: absolute;
-    top: 494px;
-    left: 340px;
-}
-#weather{
-    width: 669px;
-    height: 200px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-#humidityMain{
-    width: 329px;
-    height: 147px;
-    position: absolute;
-    top: 210px;
-    right: 340px;
-}
-#temperatureMain{
-    width: 329px;
-    height: 147px;
-    position: absolute;
-    top: 210px;
-    right: 0;
-}
-#statistics{
-    width: 329px;
-    height: 147px;
-    position: absolute;
-    top: 369px;
-    right: 340px;
-}
-#settings{
-    width: 329px;
-    height: 147px;
-    position: absolute;
-    top: 369px;
-    right: 0;
-}
-#ventsMain{
-    width: 329px;
-    height: 147px;
-    position: absolute;
-    top: 527px;
-    right: 340px;
-}
-#logs{
-    width: 329px;
-    height: 147px;
-    position: absolute;
-    top: 527px;
-    right: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;}
+
+.message, .lightMain, .device, .camVideo, .alarm, .music, .humidityMain, .temperatureMain, .statistics,
+.settings, .ventsMain, .logs{
+    height: 10.3em;
+    margin: 0 0 1.8em;
+    border: rgba(191, 191, 191, 0.76) solid 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
 }
 
 
+.col-xs-3{
+    height:200px;
+}
 
+i, p{padding: 0.2em;}

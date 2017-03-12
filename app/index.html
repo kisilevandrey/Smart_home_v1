@@ -1,59 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to Smart Home</title>
-    <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 </head>
 <body>
-<div id="timeDate"></div>
-<div id="message">
-    <i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i>
-    <p>Сообщения</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="timeDate">
+                <p id="boxDate">
+                    <i class="fa fa-calendar fa-5x" aria-hidden="true"></i>
+                </p>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="weather">
+                <p id="boxWeather">
+                    <i class="fa fa-cloud fa-5x" aria-hidden="true"></i>
+                </p>
+                <p>Погода</p>
+            </div>
+        </div>
+    </div>
 </div>
-<div id="lightMain">
-    <i class="fa fa-sun-o fa-5x" aria-hidden="true"></i>
-    <p>Свет</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-3">
+            <div class="lightMain">
+                <i class="fa fa-sun-o fa-5x" aria-hidden="true"></i>
+                <p>Свет</p>
+            </div>
+            <div class="music">
+                <i class="fa fa-music fa-5x" aria-hidden="true"></i>
+                <!--<i class="fa fa-headphones fa-5x" aria-hidden="true"></i>-->
+                <p>Музыка</p>
+            </div>
+            <div class="humidityMain">
+                <i class="fa fa-tint fa-5x" aria-hidden="true"></i>
+                <p>Влажность</p>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <div class="device">
+                <i class="fa fa-television fa-5x" aria-hidden="true"></i>
+                <!--<i class="fa fa-plug fa-5x" aria-hidden="true"></i>-->
+                <p>Устройства</p>
+            </div>
+            <div class="temperatureMain">
+                <i class="fa fa-thermometer-full fa-5x" aria-hidden="true"></i>
+                <p>Температура</p>
+            </div>
+            <div class="statistics">
+                <i class="fa fa-line-chart fa-5x"  aria-hidden="true"></i>
+                <p>Статистика</p></div>
+        </div>
+        <div class="col-xs-3">
+            <div class="camVideo">
+                <i class="fa fa-eye fa-5x" aria-hidden="true"></i>
+                <!--<i class="fa fa-video-camera fa-5x" aria-hidden="true"></i>-->
+                <p>Камера</p>
+            </div>
+            <div class="settings">
+                <i class="fa fa-cogs fa-5x" aria-hidden="true"></i>
+                <p>Настройка</p>
+            </div>
+            <div class="ventsMain">
+                <i class="fa fa-recycle fa-5x" aria-hidden="true"></i>
+                <p>Вентиляция</p>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <div class="alarm">
+                <i class="fa fa-lock fa-5x" aria-hidden="true"></i>
+                <!-- <i class="fa fa-bell-o fa-5x" aria-hidden="true"></i>-->
+                <p>Сигнализация</p></div>
+            <div class="logs">
+                <i class="fa fa-file-text-o fa-5x" aria-hidden="true"></i>
+                <p>История</p>
+            </div>
+            <div class="lightMain">
+                <i class="fa fa-sun-o fa-5x" aria-hidden="true"></i>
+                <p>Свет</p>
+            </div>
+        </div>
+    </div>
+
 </div>
-<div id="device">
-    <i class="fa fa-television fa-5x" aria-hidden="true"></i>
-    <!--<i class="fa fa-plug fa-5x" aria-hidden="true"></i>-->
-    <p>Устройства</p>
-</div>
-<div id="camVideo">
-    <i class="fa fa-eye fa-5x" aria-hidden="true"></i>
-    <!--<i class="fa fa-video-camera fa-5x" aria-hidden="true"></i>-->
-    <p>Камера</p>
-</div>
-<div id="alarm">
-    <i class="fa fa-lock fa-5x" aria-hidden="true"></i>
-   <!-- <i class="fa fa-bell-o fa-5x" aria-hidden="true"></i>-->
-    <p>Сигнализация</p></div>
-<div id="music">
-    <i class="fa fa-music fa-5x" aria-hidden="true"></i>
-    <!--<i class="fa fa-headphones fa-5x" aria-hidden="true"></i>-->
-    <p>Музыка</p>
-</div>
-<div id="weather">Погода</div>
-<div id="humidityMain">
-    <i class="fa fa-tint fa-5x" aria-hidden="true"></i>
-    <p>Влажность</p>
-</div>
-<div id="temperatureMain">
-    <i class="fa fa-thermometer-full fa-5x" aria-hidden="true"></i>
-    <p>Температура</p>
-</div>
-<div id="statistics">
-    <i class="fa fa-line-chart fa-5x"  aria-hidden="true"></i>
-    <p>Статистика</p></div>
-<div id="settings">
-    <i class="fa fa-cogs fa-5x" aria-hidden="true"></i>
-    <p>Настройка</p>
-</div>
-<div id="ventsMain">Вентиляция</div>
-<div id="logs">
-    <i class="fa fa-file-text-o fa-5x" aria-hidden="true"></i>
-    <p>История</p>
-</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<link href="css/main.css" rel="stylesheet">
 </body>
 </html>
