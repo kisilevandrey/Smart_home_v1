@@ -20,7 +20,8 @@ body{
     border: rgba(191, 191, 191, 0.76) solid 2px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;}
+    -webkit-box-sizing: border-box;
+    cursor: pointer;}
 
 .message, .lightMain, .device, .camVideo, .alarm, .music, .humidityMain, .temperatureMain, .statistics,
 .settings, .ventsMain, .logs{
@@ -30,6 +31,7 @@ body{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    cursor: pointer;
 
 }
 
